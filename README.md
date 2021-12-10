@@ -12,4 +12,10 @@ in a PdfDocument object in it's constructor.
 creating a self-sufficient PDF. It mainly operates high-level operations e.g. setting page size and rotation, adding elements,
 and writing text at specific coordinates. It has no knowledge of the actual PDF concepts and syntax.
 
+## Example 2 - Page Breaks (Area Breaks)
+
+[AreaBreakDocument](https://github.com/dinu-merca/sample-pdf-itext/blob/main/src/com/dm/pdf/AreaBreakDocument.java)
+
+A layout object that terminates the current content area and creates a new one. If no PageSize is given, the new content
+area will have the same size as the current one.
 
