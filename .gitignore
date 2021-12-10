@@ -32,4 +32,4 @@ hs_err_pid*
 # Eclipse m2e generated files
 .project
 .classpath
-
+.settings
